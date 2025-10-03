@@ -1,2 +1,2 @@
 # starlightreverie
-My Website
+This hosts the remote repository for my website.
