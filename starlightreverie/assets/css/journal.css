@@ -1,0 +1,157 @@
+/*:3 basic stuff here*/
+.mobileShow {
+	visibility: hidden;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen and (min-device-width: 1px) and (max-device-width: 640px) {
+	.mobileShow {
+		visibility: visible;
+	}
+}
+
+.mobileHide {
+	visibility: visible;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen and (min-device-width: 1px) and (max-device-width: 640px) {
+	.mobileHide {
+		visibility: hidden;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	position: absolute;
+	color: black;
+	font-family: "Helvetica";
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 133vh;
+	background-size: 133vh 100vh;
+	background-repeat: no-repeat;
+	background-image: url('/assets/img/backdrop.jpg');
+	cursor: url('/assets/img/koishicus.gif'), auto;
+}
+
+.menu {
+	position: absolute;
+	background-color: #8ff8ff;
+	padding: 1rem;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 130px;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.button {
+	width:100%;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin: auto;
+	background-image: url("https://i.imgur.com/Aw0QxIi.png");
+}
+
+.menu .disabled {
+	cursor: not-allowed;
+	color: #555555;
+}
+
+.warning {
+	background-color: #b56daa;
+	position: absolute;
+	width: 700px;
+	top: 50px;
+	left: 300px;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	font-family: monospace;
+	font-weight: bold;
+	padding: 1rem;
+}
+
+.header {
+	position: absolute;
+	padding: 1rem;
+	padding-top: 0;
+	font-size: 36px;
+	background: #efbce7;
+	height: auto;
+	width: 70%;
+	max-width: 700px;
+	left: 30%;
+}
+
+.post {
+	position: absolute;
+	background: #efbce7;
+	padding: 1rem;
+	height: auto;
+	width: 70%;
+	max-width: 700px;
+	top: 150px;
+	left: 30%;
+}
+
+.post .screenshot {
+	height: 32px;
+	width: 32px;
+	padding: 1rem;
+	border: 2px inset white;
+}
+
+.post-footer {
+	background: #b56daa;
+	text-align: center;
+	margin-top: 2rem;
+	padding: 1rem 0;
+	border-top: 1px dashed black;
+	border-bottom: 1px dashed black;
+}
+
+.post-footer div:not(:first-child) {
+	margin-top: 0.5rem;
+}
+
+.post-footer strong {
+	margin-right: 0.25rem;
+}
+
+.post .list {
+	background: #edafe4;
+	padding: 1rem;
+	margin-bottom: 2rem;
+}
+
+.eightyeightbythirtyone {
+	padding: 0;
+}
+
+.post table {
+	border-spacing: 10px;
+}
+
+.post th,
+td {
+	padding: 1px;
+}
+
+.post tr {
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+
+.post tr:hover {
+	background-color: #d6eeee;
+}
